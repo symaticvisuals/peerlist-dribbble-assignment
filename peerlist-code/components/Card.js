@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Card(props) {
 	return (
-		<div>
+		<div className='mb-6'>
 			<div className='h-auto max-w-lg rounded-lg border-2 pb-3 ml-3 mr-3 cursor-pointer'>
 				<img
 					src='https://cdn.dribbble.com/users/123819/screenshots/4119299/media/5cad3811094913554f9022dd415a3d4e.gif'
